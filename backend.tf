@@ -1,7 +1,7 @@
 terraform {
   backend "azurerm" {
-    resource_group_name  = "rg-cicd-terraform-app-apellido" # Reemplazar por apellido
-    storage_account_name = "tfstateapellido"                # Reemplazar por apellido
+    resource_group_name  = "rg-cicd-terraform-app-nahuina" # Reemplazar por nahuina
+    storage_account_name = "tfstatenahuina"                # Reemplazar por nahuina
     container_name       = "tfstate"
     key                  = "dev/terraform.tfstate"
   }
